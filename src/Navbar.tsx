@@ -25,7 +25,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link
-              to="/Movies"
+              to="/FilmList"
               className="nav-link active"
             >
               Movies

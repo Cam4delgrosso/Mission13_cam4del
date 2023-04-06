@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Podcasts from "./pages/Podcasts";
-import Movies from "./pages/Movies";
+import FilmList from "./pages/FilmList";
 
 export default function App() {
   return (
@@ -25,8 +25,8 @@ export default function App() {
               element={<Podcasts />}
             />
             <Route
-              path="Movies"
-              element={<Movies />}
+              path="FilmList"
+              element={<FilmList />}
             />
           </Route>
         </Routes>
